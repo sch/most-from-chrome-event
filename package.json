@@ -1,0 +1,22 @@
+{
+  "name": "most-from-chrome-event",
+  "version": "0.1.2",
+  "description": "Create a stream source from a Chrome event emitter.",
+  "main": "dist/from-chrome-event.js",
+  "jsnext:main": "dist/from-chrome-event.es2015.js",
+  "module": "dist/from-chrome-event.es2015.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "dependencies": {
+    "most": "^1.1.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "rollup": "^0.36.4",
+    "rollup-plugin-node-resolve": "^2.0.0"
+  }
+}
