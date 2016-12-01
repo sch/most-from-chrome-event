@@ -1,6 +1,6 @@
 {
   "name": "most-from-chrome-event",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Create a stream source from a Chrome event emitter.",
   "main": "dist/from-chrome-event.js",
   "jsnext:main": "dist/from-chrome-event.es2015.js",
