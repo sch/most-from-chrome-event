@@ -7,7 +7,9 @@
   "module": "dist/from-chrome-event.es2015.js",
   "license": "MIT",
   "scripts": {
-    "build": "rollup --config"
+    "prepublish": "npm run build",
+    "build": "rollup --config",
+    "postversion": "git push && git push --tags && npm publish"
   },
   "dependencies": {
     "most": "^1.1.0"
